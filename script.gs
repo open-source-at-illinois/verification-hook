@@ -22,7 +22,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 */
-
+var POST_URL = "YOUR URL HERE"
 function onSubmit(e) {
   var formsheet = SpreadsheetApp.getActiveSpreadsheet().getSheets()[0];
   var newResponse = formsheet.getLastRow() - 1;
