@@ -1,7 +1,8 @@
 # verification-hook
 Webhook used to send notification to Discord upon completion of Google Form
 
-Note: at the top of the script, you must specify the Discord webhook payload URL, something like this:
-```
-var POST_URL = "https://blahblah.blah/"
-```
+## Installation
+
+Basically, follow the instructions here: https://github.com/Iku/Google-Forms-to-Discord
+
+If you couldn't find the script editor for the Google Form, you have to enable the linked spreadsheet to the google form and add the script there. Then, carry on with the guide as normal.
